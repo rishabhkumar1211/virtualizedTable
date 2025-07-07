@@ -1,3 +1,38 @@
+# ⚡ Virtualized Table with Frozen Columns in React
+
+This project demonstrates a high-performance, scrollable **virtualized table** using **React**, **TypeScript**, and **react-window**, capable of rendering **1000+ rows × 50+ columns** with:
+
+- 📦 Virtual scrolling (horizontal & vertical)
+- 📌 Frozen first and last 2 columns
+- 📋 Sticky header row
+- 📐 Fully responsive
+- 🎨 Clean, modern UI (Airtable-style)
+
+---
+
+## 🚀 Features
+
+| Feature                  | Description                                            |
+| ------------------------ | ------------------------------------------------------ |
+| ✅ Virtual Scrolling     | Smooth performance using `react-window`                |
+| ✅ Large Dataset Support | Renders 1000 rows × 50 columns efficiently             |
+| ✅ Frozen Columns        | First 2 and last 2 columns remain sticky during scroll |
+| ✅ Sticky Header         | Header row always visible on vertical scroll           |
+| ✅ Custom Freezing Logic | Implemented manually using `position: sticky`          |
+| ✅ Responsive Layout     | Adjusts to window resize events                        |
+| ✅ Polished UI           | Alternating row colors, shadows, clean typography      |
+
+---
+
+## 🛠 Tech Stack
+
+- **React** (with Hooks)
+- **TypeScript**
+- **react-window**
+- No CSS files – styling done via inline styles
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
